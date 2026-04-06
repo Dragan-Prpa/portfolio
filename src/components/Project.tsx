@@ -5,7 +5,7 @@ interface ProjekatProps {
   description: string;
   technologyUsed: string;
   image: string;
-  link: string; // gde vodi klik
+  link: string; 
 }
 
 const Projekat: React.FC<ProjekatProps> = ({ title, description,technologyUsed, image, link }) => {
