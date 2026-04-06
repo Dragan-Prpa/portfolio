@@ -14,10 +14,10 @@ export default function App() {
     setTransitioning(true);
     setNext(section);
 
-    // screen "off" duration
+   
     setTimeout(() => {
       setActive(section);
-      // screen "on" duration
+     
       setTimeout(() => setTransitioning(false), 50);
     }, 50);
   };
