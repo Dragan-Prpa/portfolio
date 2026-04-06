@@ -10,10 +10,10 @@ const projektiData = [
     link: '/portfolio',
   },
   {
-    title: 'Example',
-    description: 'aaaaaaaaa aaaaaaaaaaa a aaaaaaaaaa',
+    title: 'Survive the Zombeans',
+    description: '3D infinite wave-based zombie survival game',
     technologyUsed: 'Unity',
-    image: '/images/game.png',
+    image: '/images/Zombeans_Logo.png',
     link: '/game',
   }
 ];
