@@ -24,6 +24,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
+      <title>Dragan Prpa</title>
       <header className="flex gap-4 p-4 bg-gray-900">
         <button onClick={()=> handleClick('hero')}>Home</button>
         <button onClick={() => handleClick('about')}>About</button>
