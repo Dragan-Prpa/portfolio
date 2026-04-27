@@ -7,7 +7,8 @@ import Hero from './components/Hero';
 export default function App() {
   const [active, setActive] = useState<'hero'|'about' | 'projects' | 'contact'>('hero');
   const [transitioning, setTransitioning] = useState(false);
-  const [next, setNext] = useState<'hero'|'about' | 'projects' | 'contact'>('hero');
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [, setNext] = useState<'hero'|'about' | 'projects' | 'contact'>('hero');
 
   const handleClick = (section: typeof active) => {
     if (section === active || transitioning) return;
