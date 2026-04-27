@@ -15,12 +15,20 @@ const projektiData = [
     technologyUsed: 'Unity',
     image: '/images/Zombeans_Logo.png',
     link: '/game',
+  },
+  {
+    title: 'Saidkick',
+    description: 'Plugin adding a customizable proactive agent to IntelliJ',
+    technologyUsed: 'Kotlin',
+    image: '/images/saidkick.png',
+    link: '/hackathon',
   }
 ];
 
 const Projekti: React.FC = () => {
   return (
-    <section className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    <section className=" p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {projektiData.map((p) => (
         <Projekat
           key={p.title}
