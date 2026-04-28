@@ -7,21 +7,21 @@ const projektiData = [
     description: 'Hospitality management app with mobile ordering webapp.',
     technologyUsed: 'React(TS)+Remix /Laravel',
     image: '/images/FLIK_Logo.png',
-    link: '/portfolio',
+    link: 'https://flikapp.com',
   },
   {
     title: 'Survive the Zombeans',
     description: '3D infinite wave-based zombie survival game',
     technologyUsed: 'Unity',
     image: '/images/Zombeans_Logo.png',
-    link: '/game',
+    link: 'https://github.com/Dragan-Prpa/SurviveTheZombeans',
   },
   {
     title: 'Saidkick',
     description: 'Plugin adding a customizable proactive agent to IntelliJ',
     technologyUsed: 'Kotlin',
     image: '/images/saidkick.png',
-    link: '/hackathon',
+    link: 'https://github.com/Dragan-Prpa/Saidkick',
   }
 ];
 
