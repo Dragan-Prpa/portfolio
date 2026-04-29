@@ -35,7 +35,7 @@ const projektiData = [
 const Projekti: React.FC = () => {
   return (
 
-      <section className="p-8 flex justify-center">
+      <section className="min-h-screen bg-black p-8 flex justify-center">
         <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projektiData.map((p) => (
               <Projekat
