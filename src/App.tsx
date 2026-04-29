@@ -33,7 +33,7 @@ export default function App() {
         <button onClick={() => handleClick('contact')}>Contact</button>
       </header>
 
-      <main className="relative flex-1 flex items-center justify-center">
+      <main className="relative flex-1">
         {/* screen overlay efekat */}
         {transitioning && (
           <div className="absolute inset-0 bg-black z-50 animate-screen-off"></div>
